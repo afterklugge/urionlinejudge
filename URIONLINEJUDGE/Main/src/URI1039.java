@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class URI1039 {
 
 	public static void main(String[] args) {
-		double A, B, C, D, E, MEDIA;
+		float A, B, C, D, E, MEDIA;
 		
 		Scanner sc = new Scanner(System.in);
-		A = sc.nextDouble();
-		B = sc.nextDouble();
-		C = sc.nextDouble();
-		D = sc.nextDouble();
+		A = sc.nextFloat();
+		B = sc.nextFloat();
+		C = sc.nextFloat();
+		D = sc.nextFloat();
 		
 		MEDIA = ((A*2) + (B*3) + (C*4)+ (D*1)) / 10;
 		
@@ -25,7 +25,7 @@ public class URI1039 {
 		else if(MEDIA <= 6.9 && MEDIA >= 5.0) {
 				System.out.printf("MEDIA = %.1f%n", MEDIA);
 				System.out.print("Aluno em exame.\n");
-				E = sc.nextDouble();
+				E = sc.nextFloat();
 				System.out.printf("Nota do exame: %.1f%n", E);
 				
 				
